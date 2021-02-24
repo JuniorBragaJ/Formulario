@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de cadastro</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="main-container">
+        <h1>Formulário para ingressantes</h1>
+        <form id="register-form">
+            <div id="nome-div"> 
+                <label for="nome" id="nome">Nome completo:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo">
+            </div>
+            <div id="sexo">   
+                <label for="sexo">Sexo:</label>
+                <select name="sexo" id="sexo-select">
+                    <option value= none></option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                </select>
+            </div>
+
+            <div id="estado-civil">
+                <label for="estado-civil">Estado civil: </label>
+                <select name="estado-civil" id="estado-civil-select">
+                    <option value= none></option>
+                    <option value="solteiro">Solteiro(a)</option>
+                    <option value="casadp">Casado(a)</option>
+                    <option value="separado">Separado(a)</option>
+                    <option value="divorciado">Divorciado(a)</option>
+                    <option value="viuvo">Viúvo(a)</option>
+                </select>
+            </div>
+
+            <div id="grau-instrucao">
+                <label for="grau-intrucao">Grau de instrução: </label>
+                <select name="grau-instrucao" id="grau-intrucao">
+                    <option value= none></option>
+                    <option value="fundamental-incompleto">Fundamental incompleto</option>
+                    <option value="fundamental-completo">Fundamental completo</option>
+                    <option value="medio-incompleto">Médio incompleto</option>
+                    <option value="medio-completo">Médio completo</option>
+                    <option value="superior-incompleto">Superior incompleto</option>
+                    <option value="superior-completo">Superior completo</option>
+                    <option value="pos-graduacao">Pós-graduação</option>
+                    <option value="mestrado">Mestrado</option>
+                    <option value="doutorado">Doutorado</option>
+                </select>      
+            </div>
+
+            <div id="data-nascimento">   
+                <label for="data-nascimento">Data de nascimento: </label>
+                <input type="date" name="data-nascimento" id="data-nascimento">
+            </div>
+            <div id="nacionalidade">
+                <label for="nacionalidade">Nacionalidade: </label>
+                <input type="text" name="nacionalidade" id="nacionalidade" placeholder="Digite sua nacionalidade">
+            </div>
+            <div id="num-carteira-trab" >
+                <label for="num-carteira-trab">Número da carteira de trabalho: </label>
+                <input type="number" name="num-carteira-trab" id="num-carteira-trab" placeholder="Digite o número da carteira">   
+            </div>
+
+        </form>
+
+    </div>
+    <p id='showNome'></p>
+    
+    <script>    
+        
+
+    </script>
+    
+</body>
+</html>

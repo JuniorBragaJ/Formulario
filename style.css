@@ -1,0 +1,82 @@
+/* Style geral da pagina */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    border: none;
+}
+input,label{
+    display: block;
+    width: 100%;
+}
+
+input:focus, label:focus {
+    outline: blue; 
+}
+body {
+    padding-top: 2vh;
+    background-color: lightblue;
+}
+/* background formulario */
+#main-container{
+    width: 1840px;
+    margin-left: auto; 
+    margin-right: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+#main-container h1{
+    margin-bottom: 20px;;
+    text-align: center;
+    font-size: 1.9rem; /* fonte se adapta ao elemento root (ao tamanho do aparelho q era rodando)*/
+}
+form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+label{
+    padding-top: 10px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+input{
+    text-align: center;
+    border-bottom: 2px solid black;
+    padding-top: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+}
+#nome-div{
+    width: 400px;
+    background-color: lightgray;
+    border-radius: 5px;
+}
+#sexo{
+    text-align: center;
+    width: 100px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+}
+#estado-civil{
+    text-align: center;
+    width: 130px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+}
+#grau-instrucao{
+    text-align: center;
+    width: 200px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border-bottom: 2px solid black;
+}
+#num-carteira-trab{
+    display: block;
+}
+
